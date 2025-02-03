@@ -58,9 +58,9 @@ const FooterPart = () => {
         </Flex>
         <Flex className={"justify-between "}>
             <div className="flex gap-x-10 mt-10"> 
-                <FaFacebookF/>
-                <FaLinkedinIn/>
-                <FaInstagram />
+                <FaFacebookF className='text-teal-600'/>
+                <FaLinkedinIn className='text-teal-600'/>
+                <FaInstagram className='text-teal-600' />
             </div>
             <div className=" mt-[20px]">
             <Heading text={"2020 Orebi Minimal eCommerce Figma Template by Adveits"} as={"p"} className={"text-[20px] mt-[10px] text-[#6D6D6D] "}/> 
